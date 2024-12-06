@@ -1,4 +1,4 @@
 package christmas.dto;
 
-public record GiveawayItemDto(String name, int amount) {
+public record GiveawayItemDto(String name, int amount, int price) {
 }
