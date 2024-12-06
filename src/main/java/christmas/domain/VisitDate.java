@@ -8,6 +8,14 @@ public class VisitDate {
     private final int month;
     private final int day;
 
+    public int getMonth() {
+        return month;
+    }
+
+    public int getDay() {
+        return day;
+    }
+
     private VisitDate(int month, int day) {
         this.month = month;
         this.day = day;
